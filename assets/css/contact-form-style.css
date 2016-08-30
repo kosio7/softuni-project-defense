@@ -1,0 +1,60 @@
+#contact_form{
+	text-align: center;
+	border: 1px solid #ccc;
+	width: 400px;
+	padding: 0 40px 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 15px;
+	border-radius: 12px;	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+h2 {
+	font-family: Verdana;
+	color: #0A556E;
+}
+
+hr{
+	margin-top: 10px;
+}
+
+label{
+	float: left;
+	font-size: 20px;
+	font-family: Verdana;
+	color: #0A556E;
+}
+
+input[type="text"]{
+	width: 100%;
+	margin-top: 10px;
+	height: 35px;
+	margin-bottom: 25px;
+	padding: 10px;
+	border: 1px solid #B0C4DE;
+}
+
+textarea{
+	width: 100%;
+	border: 1px solid #B0C4DE;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	height: 100px;
+	resize: none;
+}
+
+input[type="submit"]{
+	width: 100%;
+	padding: 10px 45px;
+	background-color: #B0C4DE;
+	border: none;
+	color: #0A556E;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+	font-family: 'Ubuntu',sans-serif;
+}
