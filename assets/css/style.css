@@ -9,7 +9,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #F0F8FF;
+    background-color: #d3d3d3;
     overflow-x: hidden;
     padding-top: 50px;
     transition: 0.4s;
@@ -22,8 +22,9 @@ body {
 .sidenav a {
 	padding: 8px 8px 8px 32px;
     text-decoration: none;
+    font-family: Helvetica;
     font-size: 25px;
-    color: #4169E1;
+    color: #000000;
     display: block;
     transition: 0.3s
 }
@@ -34,10 +35,12 @@ body {
 
 .closebtn {
 	position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px !important;
-    margin-left: 50px;
+    top: 2px;
+    right: 2px;  
+}
+
+.closebtn:hover {        
+    cursor: pointer;
 }
 
 #main {
@@ -79,17 +82,30 @@ body {
 	text-align: center;
 }
 
-#menuButton {
-    border: 1px solid;
-    border-color: #4169E1;
-    border-radius: 12px;
-    color: #4169E1;
-    font-size: 21px;    
+.btn { 
+    position: relative;         
+    margin-top:2%; 
+    border: 2px solid black;
+    border-radius: 5px; 
+    height: 36px; 
+    width:36px;  
 }
 
-#menuButton:hover {
-    background-color: #034F69;
-    cursor: pointer;   
+#menuButton:before { 
+    border-bottom: 16px double black;
+    border-top: 7px solid black;
+    border-radius: 2px;
+    content:"";
+    height: 5px; 
+    position: absolute; 
+    right:3px;  
+    top: 4px; 
+    width:30px; 
+}
+
+#menuButton:hover {    
+    border-color: #7e7e7e;
+    cursor: pointer;
 }
 
 #about {
