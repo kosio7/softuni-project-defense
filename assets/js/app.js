@@ -1,18 +1,18 @@
 $(function() {
     $("header").load("partials/header.html");
     $("#menu").load("partials/menu.html", attachHandlers);
-    $("#main-content").load("partials/home.html");
+    $("#main-content").load("partials/home.html");    
 
 	function attachHandlers () {
 
 		$('#home').click(function () {			
 			$("#header-content").text("Home page");
-			$("#main-content").load("partials/home.html");
+			$("#main-content").load("partials/home.html");			
 		});
 
 		$('#my-projects').click(function () {			
 			$("#header-content").text("My Projects");
-			$("#main-content").load("partials/my-projects.html")
+			$("#main-content").load("partials/my-projects.html");			
 		});
 
 		$('#resources').click(function () {			

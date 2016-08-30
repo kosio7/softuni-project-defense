@@ -1,3 +1,7 @@
+body {
+    background-image: url("circuit-board.png");
+}
+
 .sidenav {	
     height: 100%;
     width: 0;
@@ -24,7 +28,7 @@
     transition: 0.3s
 }
 
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover, .offcanvas a:focus {
     color: #00BFFF;
 }
 
@@ -128,4 +132,17 @@
 
 #projects-header {
     text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -50px;
+}
+
+footer, .push {
+    height: 155px;    
 }

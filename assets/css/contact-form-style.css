@@ -1,4 +1,4 @@
-#contact_form{
+#contact_form {
 	text-align: center;
 	border: 1px solid #ccc;
 	width: 400px;
@@ -10,25 +10,26 @@
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	background-color: #4169E1; 
 }
 
-h2{
+h2 {
 	font-family: Verdana;
-	color: #0A556E;
+	color: #000000;
 }
 
-hr{
+hr {
 	margin-top: 10px;
 }
 
-label{
+label {
 	float: left;
 	font-size: 20px;
 	font-family: Verdana;
-	color: #0A556E;
+	color: #000000;
 }
 
-input[type="text"]{
+input[type="text"] {
 	width: 100%;
 	margin-top: 10px;
 	height: 35px;
@@ -37,7 +38,7 @@ input[type="text"]{
 	border: 1px solid #B0C4DE;
 }
 
-textarea{
+textarea {
 	width: 100%;
 	border: 1px solid #B0C4DE;
 	padding: 10px;
@@ -47,7 +48,7 @@ textarea{
 	resize: none;
 }
 
-input[type="submit"]{
+input[type="submit"] {
 	width: 100%;
 	padding: 10px 45px;
 	background-color: #B0C4DE;
