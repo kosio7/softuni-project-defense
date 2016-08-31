@@ -9,6 +9,8 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
+    border: 1px solid black;
+    border-radius: 2px;
     background-color: #d3d3d3;
     overflow-x: hidden;
     padding-top: 50px;
@@ -134,10 +136,6 @@ body {
     display: none;
 }
 
-#resources-list {
-    margin-left: 200px;    
-}
-
 #resources-list a {
     text-decoration: none;
 }
@@ -150,15 +148,11 @@ body {
     text-align: center;
 }
 
-html, body {
-    height: 100%;
-}
-
 .wrapper {
     min-height: 100%;
     margin: 0 auto -50px;
 }
 
 footer, .push {
-    height: 155px;    
+    height: 200px;
 }
