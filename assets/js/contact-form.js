@@ -52,7 +52,7 @@ function createContactForm () {
 	createForm.appendChild(messageBreak);
 
 	var submitElement = document.createElement('input');
-	submitElement.setAttribute("type", "submit");
+	submitElement.setAttribute("type", "button");
 	submitElement.setAttribute("name", "submit");
 	submitElement.setAttribute("value", "Submit");
 	createForm.appendChild(submitElement);

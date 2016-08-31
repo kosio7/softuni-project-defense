@@ -2,9 +2,10 @@ $(function() {
     $("header").load("partials/header.html");
     $("footer").load("partials/footer.html");
     $("#menu").load("partials/menu.html", attachHandlers);
-    $("#main-content").load("partials/home.html");    
+    $("#main-content").load("partials/home.html");
 
 	function attachHandlers () {
+		$("#home a").addClass("active");
 
 		$('#home').click(function () {
 			$("a.menu-link").removeClass("active");

@@ -1,5 +1,4 @@
-function toggleNav() {    
-
+function toggleNav() {
     var navWidth = document.getElementById("navigation").style.width;
     var elNav = document.getElementById("navigation");
     var elMainContent = document.getElementById("main-content");
