@@ -138,8 +138,8 @@ body {
     margin-left: 200px;
 }
 
-#projects-header {
-    text-align: center;
+#my-projects li a {
+    text-decoration: none;
 }
 
 footer {
@@ -148,7 +148,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;  
-  text-align: center;
+  text-align: center;  
 }
 
 footer a {
