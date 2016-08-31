@@ -70,9 +70,10 @@ body {
 }
 
 .header {
+    padding: 5px;    
 	text-align: center;
     font-family: Helvetica;	  
-    background-color: #a8a8a8;  
+    background-color: #a8a8a8;        
 }
 
 .main {
@@ -146,8 +147,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  /*background-color: #efefef;*/
+  padding: 1rem;  
   text-align: center;
 }
 
