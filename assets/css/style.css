@@ -38,7 +38,7 @@ body {
 .closebtn {
 	position: absolute;
     top: 2px;
-    right: 2px;  
+    left: 2px;
 }
 
 .closebtn:hover {        
@@ -71,12 +71,8 @@ body {
 
 .header {
 	text-align: center;
-    font-family: Verdana;
-	background: #B0C4DE;
-    border: 1px solid;
-    border-color: #4169E1;
-    border-radius: 10px;
-
+    font-family: Helvetica;	  
+    background-color: #a8a8a8;  
 }
 
 .main {
@@ -84,8 +80,7 @@ body {
 }
 
 .btn { 
-    position: relative;         
-    margin-top:2%; 
+    position: relative;    
     border: 2px solid black;
     border-radius: 5px; 
     height: 36px; 
@@ -109,9 +104,8 @@ body {
     cursor: pointer;
 }
 
-#about {
-    transition: margin-left .5s;
-    padding: 20px;
+#menuButton {
+    transition: margin-left 0.5s;
 }
 
 .about {
@@ -147,13 +141,14 @@ body {
     text-align: center;
 }
 
-.wrapper {
-    min-height: 100%;
-    margin: 0 auto -50px;
-}
-
-footer, .push {
-    height: 200px;
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  /*background-color: #efefef;*/
+  text-align: center;
 }
 
 #main-content {
