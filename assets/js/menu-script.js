@@ -1,9 +1,6 @@
 var element = document.getElementById("main-content");
 element.addEventListener('click', closeNav);
 
-var menuButton = document.getElementById("menuButton");
-
-
 function openNav() {
     document.getElementById("navigation").style.width = "300px";
     document.getElementById("main-content").style.marginLeft = "300px";
