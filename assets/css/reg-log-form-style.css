@@ -1,0 +1,68 @@
+.user-login-block {
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 400px;
+    padding: 0 40px 15px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    background-color: #a8a8a8; 
+}
+
+.form-title {
+    font: 20px Verdana;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 5px 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#username, #full-name {
+    border-radius: 30px;
+    border: 3px solid #f2f2f2;
+    width: 60%;
+    height: 35px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+input[type="password"] {
+    border-radius: 30px;
+    border: 3px solid #f2f2f2;
+    width: 60%;
+    height: 35px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+#user-register input:focus {
+    font: 12px Verdana;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #06c0ab;
+}
+
+#register-request-button, #login-request-button {
+    font: 16px Lato;
+    color: #0A556E;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #B0C4DE;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;    
+    width: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#reg-login-redirect {
+    text-decoration: none;
+}

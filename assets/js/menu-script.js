@@ -1,22 +1,21 @@
-var element = document.getElementById("main-content");
-element.addEventListener('click', closeNav);
+function toggleNav() {    
 
-function openNav() {
-    document.getElementById("navigation").style.width = "300px";
-    document.getElementById("main-content").style.marginLeft = "300px";
-    document.getElementById("header-content").style.marginLeft = "300px";
-    document.getElementById("menuButton").style.marginLeft = "300px";
-}
+    var navWidth = document.getElementById("navigation").style.width;
+    var elNav = document.getElementById("navigation");
+    var elMainContent = document.getElementById("main-content");
+    var elHeaderContent = document.getElementById("header-content");
+    var elMenuButton = document.getElementById("menuButton");
 
-function closeNav() {
-    var elWidth = document.getElementById("navigation").style.width;
-    
-    if (parseInt(elWidth) > 0) {
-    	document.getElementById("navigation").style.width = "0";
-    }    
 
-    document.getElementById("main-content").style.marginLeft = "0px";
-    document.getElementById("header-content").style.marginLeft = "0px";
-    document.getElementById("menuButton").style.marginLeft = "0px";
-
+    if (parseInt(navWidth) > 0) {
+        elNav.style.width = "0";
+        elMainContent.style.marginLeft = "0px";
+        elHeaderContent.style.marginLeft = "0px";
+        elMenuButton.style.marginLeft = "0px";        
+    } else {
+        elNav.style.width = "300px";
+        elMainContent.style.marginLeft = "300px";
+        elHeaderContent.style.marginLeft = "300px";
+        elMenuButton.style.marginLeft = "300px";
+    }
 }

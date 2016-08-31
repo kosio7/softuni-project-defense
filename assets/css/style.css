@@ -1,5 +1,5 @@
 body {
-    background-image: url("circuit-board.png");
+    background-image: url("../img/circuit-board.png");
 }
 
 .sidenav {	
@@ -32,6 +32,10 @@ body {
 }
 
 .sidenav a:hover, .offcanvas a:focus {
+    color: #00BFFF;
+}
+
+.sidenav a.active {
     color: #00BFFF;
 }
 
@@ -73,7 +77,8 @@ body {
     padding: 5px;    
 	text-align: center;
     font-family: Helvetica;	  
-    background-color: #a8a8a8;        
+    background-color: #a8a8a8;
+    margin-top: 0;       
 }
 
 .main {
@@ -147,12 +152,16 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;  
+  /*padding: 1rem;*/  
   text-align: center;  
 }
 
 footer a {
     text-decoration: none;
+}
+
+footer p {
+    margin: 0;
 }
 
 #main-content {
